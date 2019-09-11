@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIFtastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootStrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+<body>
+        
+    <div class="container">
+        <h2>Avatar the Last Airbender GIFtastic</h2>
+        <h6>Click on a button to generate a GIF. Add your own Avatar button or double click to delete an existing button.</h6>
+           
+        <!-- Buttons div  -->
+        <div class = "row">
+            <div class="buttons-view"></div>
+        </div>
+        
+        <div class = "row">
+            <div class="col-lg-9 container-fluid">
+                <div id="avatar-view"></div>
+            </div>
+            <!-- Div for the form and submit button-->
+            <div class="col-lg-3">
+                <form id="avatar-form">
+                <label for="avatar-input">Add another button!</label>
+                <input type="text" class="form-control col-12" id="avatar-input"><br>
+                <input class="btn btn-warning" id="add-avatar" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery & Javascript file Links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

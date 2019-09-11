@@ -1,0 +1,52 @@
+
+body {
+    background-image: url("https://img.anime2you.de/2018/09/avatar.jpg");
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bolder;
+    background-size: cover;    
+}
+
+.topic {
+        margin: 10px;
+   }
+
+.buttons-view {
+    border-radius: 25px;
+    border: 2px solid pink;
+    padding: 10px;
+}
+
+h2 {
+    letter-spacing: 5px;
+    text-align: center;
+    color:whitesmoke;
+    font-weight: bolder;
+}
+
+h6 {
+    color: whitesmoke;
+}
+
+.topic {
+    font-size: 16px;
+    background-color: pink;
+    font-weight: bold;
+}
+
+.hero-name{
+    margin: 20px;
+    float: left;
+}
+
+p {
+    color:whitesmoke;
+    margin-top: 20px;
+    line-height: 16px;
+}
+
+img {
+    border-radius: 20px;
+    margin-top: 2px;
+}
